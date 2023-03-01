@@ -117,4 +117,33 @@ entries:
     urls:
     - https://github.com/instill-ai/helm-charts/releases/download/vdp-0.1.0-alpha/vdp-0.1.0-alpha.tgz
     version: 0.1.0-alpha
-generated: "2023-03-01T12:09:46.877316539Z"
+  - apiVersion: v2
+    appVersion: 0.6.0-alpha
+    created: "2023-03-01T12:18:10.256185369Z"
+    dependencies:
+    - condition: elasticsearch.enabled
+      name: elasticsearch
+      repository: https://helm.elastic.co
+      version: 8.5.1
+    description: Versatile Data Pipeline (VDP) empowers the modern data stack to process
+      unstructured data.
+    digest: 3c8e0b880b45107720a3b7b42735bd2a6b7be1e823132b44ce2dd6d0a71f00ec
+    home: https://www.instill.tech
+    icon: https://storage.googleapis.com/public-europe-west2-c-artifacts/imgs/vdp-logo.png
+    keywords:
+    - unstructured data
+    - pipeline
+    - ETL/ELT
+    - AI
+    - Data
+    maintainers:
+    - name: Instill AI LTD
+      url: https://github.com/instill-ai
+    name: vdp
+    sources:
+    - https://github.com/instill-ai/vdp
+    type: application
+    urls:
+    - https://github.com/instill-ai/helm-charts/releases/download/vdp-0.1.0-alpha/vdp-0.1.0-alpha.tgz
+    version: 0.1.0-alpha
+generated: "2023-03-01T12:18:10.256206469Z"
