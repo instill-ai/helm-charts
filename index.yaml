@@ -35,6 +35,69 @@ entries:
     - https://github.com/instill-ai/helm-charts/releases/download/vdp-0.1.6-alpha/vdp-0.1.6-alpha.tgz
     version: 0.1.6-alpha
   - apiVersion: v2
+    appVersion: 0.9.3-alpha
+    created: "2023-05-31T18:21:51.732105093Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: https://charts.bitnami.com/bitnami
+      version: 8.8.1
+    - condition: elasticsearch.enabled
+      name: elasticsearch
+      repository: https://helm.elastic.co
+      version: 7.17.3
+    - condition: influxdb2.enabled
+      name: influxdb2
+      repository: https://helm.influxdata.com
+      tags:
+      - observability
+      version: 2.1.1
+    - condition: jaeger.enabled
+      name: jaeger
+      repository: https://jaegertracing.github.io/helm-charts
+      tags:
+      - observability
+      version: 0.71.2
+    - condition: prometheus.enabled
+      name: prometheus
+      repository: https://prometheus-community.github.io/helm-charts
+      tags:
+      - observability
+      version: 22.6.2
+    - condition: grafana.enabled
+      name: grafana
+      repository: https://grafana.github.io/helm-charts
+      tags:
+      - observability
+      version: 6.56.6
+    - condition: opentelemetry-collector.enabled
+      name: opentelemetry-collector
+      repository: https://open-telemetry.github.io/opentelemetry-helm-charts
+      tags:
+      - observability
+      version: 0.59.1
+    description: Versatile Data Pipeline (VDP) empowers the modern data stack to process
+      unstructured data.
+    digest: bba8587c7874dad51c761f48801c3d2b4c073d98d9709139a7d85d49b621e799
+    home: https://www.instill.tech
+    icon: https://storage.googleapis.com/public-europe-west2-c-artifacts/imgs/vdp-logo.png
+    keywords:
+    - unstructured data
+    - pipeline
+    - ETL/ELT
+    - AI
+    - Data
+    maintainers:
+    - name: Instill AI LTD
+      url: https://github.com/instill-ai
+    name: vdp
+    sources:
+    - https://github.com/instill-ai/vdp
+    type: application
+    urls:
+    - https://github.com/instill-ai/helm-charts/releases/download/vdp-0.1.6-alpha/vdp-0.1.6-alpha.tgz
+    version: 0.1.6-alpha
+  - apiVersion: v2
     appVersion: 0.9.2-alpha
     created: "2023-05-12T01:28:26.442732331Z"
     dependencies:
@@ -67,4 +130,4 @@ entries:
     urls:
     - https://github.com/instill-ai/helm-charts/releases/download/vdp-0.1.5-alpha/vdp-0.1.5-alpha.tgz
     version: 0.1.5-alpha
-generated: "2023-05-12T10:10:00.711464952Z"
+generated: "2023-05-31T18:21:51.732167395Z"
