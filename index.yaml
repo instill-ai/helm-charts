@@ -1,5 +1,68 @@
 apiVersion: v1
 entries:
+  base:
+  - apiVersion: v2
+    appVersion: 0.1.0-alpha
+    created: "2023-06-18T23:46:11.962112862Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: https://charts.bitnami.com/bitnami
+      version: 8.8.1
+    - condition: elasticsearch.enabled
+      name: elasticsearch
+      repository: https://helm.elastic.co
+      version: 7.17.3
+    - condition: influxdb2.enabled
+      name: influxdb2
+      repository: https://helm.influxdata.com
+      tags:
+      - observability
+      version: 2.1.1
+    - condition: jaeger.enabled
+      name: jaeger
+      repository: https://jaegertracing.github.io/helm-charts
+      tags:
+      - observability
+      version: 0.71.2
+    - condition: prometheus.enabled
+      name: prometheus
+      repository: https://prometheus-community.github.io/helm-charts
+      tags:
+      - observability
+      version: 22.6.2
+    - condition: grafana.enabled
+      name: grafana
+      repository: https://grafana.github.io/helm-charts
+      tags:
+      - observability
+      version: 6.56.6
+    - condition: opentelemetry-collector.enabled
+      name: opentelemetry-collector
+      repository: https://open-telemetry.github.io/opentelemetry-helm-charts
+      tags:
+      - observability
+      version: 0.59.1
+    description: The Helm chart of Instill Base
+    digest: aba8fd3d229cf766bf684beeb28783a072fe43d39fc51d6fbe517ef751bf4fbc
+    home: https://www.instill.tech
+    icon: https://storage.googleapis.com/public-europe-west2-c-artifacts/imgs/helm-base-logo.png
+    keywords:
+    - unstructured data
+    - pipeline
+    - ETL/ELT
+    - AI
+    - Data
+    maintainers:
+    - name: Instill AI LTD
+      url: https://github.com/instill-ai
+    name: base
+    sources:
+    - https://github.com/instill-ai/base
+    type: application
+    urls:
+    - https://github.com/instill-ai/helm-charts/releases/download/base-0.1.0-alpha/base-0.1.0-alpha.tgz
+    version: 0.1.0-alpha
   vdp:
   - apiVersion: v2
     appVersion: 0.10.1-alpha
@@ -256,4 +319,4 @@ entries:
     urls:
     - https://github.com/instill-ai/helm-charts/releases/download/vdp-0.1.5-alpha/vdp-0.1.5-alpha.tgz
     version: 0.1.5-alpha
-generated: "2023-06-11T21:53:26.865421853Z"
+generated: "2023-06-18T23:46:11.962134162Z"
