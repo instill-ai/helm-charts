@@ -1,25 +1,13 @@
-## VDP Helm Chart
+## Instill AI Helm Charts
 
-[Helm](https://helm.sh) must be installed to use the charts. Please refer to
-Helm's [documentation](https://helm.sh/docs) to get started.
-
-Once Helm has been set up correctly, add the repo as follows:
+Add the Instill AI Helm repository using:
 
 ```bash
-helm repo add instill https://helm.instill.tech
+$ helm repo add instill-ai https://helm.instill.tech
+$ helm repo update
 ```
 
-If you had already added this repo earlier, run `helm repo update` to retrieve
-the latest versions of the packages. You can then run `helm search repo vdp --devel` to see the chart.
+Documentation on each individual chart can be found for
 
-To install the chart (alpha version):
-
-```bash
-helm install vdp instill/vdp --devel
-```
-
-To uninstall the chart:
-
-```bash
-helm uninstall vdp
-```
+- [Instill Base Helm Chart](https://github.com/instill-ai/base/blob/main/charts/base/README.md)
+- [Instill VDP Helm Chart](https://github.com/instill-ai/vdp/blob/main/charts/vdp/README.md)
