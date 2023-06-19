@@ -3,7 +3,7 @@ entries:
   base:
     - apiVersion: v2
       appVersion: 0.1.0-alpha
-      created: "2023-06-18T23:46:11.962112862Z"
+      created: "2023-06-19T00:23:21.221615463Z"
       dependencies:
         - condition: etcd.enabled
           name: etcd
@@ -44,7 +44,7 @@ entries:
             - observability
           version: 0.59.1
       description: The Helm chart of Instill Base
-      digest: aba8fd3d229cf766bf684beeb28783a072fe43d39fc51d6fbe517ef751bf4fbc
+      digest: 0a783776dc73e31b7e782d6a4c1b94546ac3c0238c9f2cbe19eb993cc7111b4c
       home: https://www.instill.tech
       icon: https://storage.googleapis.com/public-europe-west2-c-artifacts/imgs/helm-base-logo.png
       keywords:
