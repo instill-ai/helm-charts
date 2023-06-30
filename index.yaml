@@ -522,6 +522,29 @@ entries:
     - https://github.com/instill-ai/helm-charts/releases/download/vdp-0.1.9-alpha/vdp-0.1.9-alpha.tgz
     version: 0.1.9-alpha
   - apiVersion: v2
+    appVersion: 0.10.2-alpha
+    created: "2023-06-30T10:38:57.969607233Z"
+    description: The Helm chart of Instill VDP
+    digest: 286b41f31c1c596eff5e19129a4ec5ab9d8321578d03b8807949199543bb6e47
+    home: https://www.instill.tech
+    icon: https://storage.googleapis.com/public-europe-west2-c-artifacts/imgs/helm-vdp-logo.png
+    keywords:
+    - unstructured data
+    - pipeline
+    - ETL/ELT
+    - AI
+    - Data
+    maintainers:
+    - name: Instill AI LTD
+      url: https://github.com/instill-ai
+    name: vdp
+    sources:
+    - https://github.com/instill-ai/vdp
+    type: application
+    urls:
+    - https://github.com/instill-ai/helm-charts/releases/download/vdp-0.1.9-alpha/vdp-0.1.9-alpha.tgz
+    version: 0.1.9-alpha
+  - apiVersion: v2
     appVersion: 0.10.1-alpha
     created: "2023-06-19T00:21:38.716782859Z"
     dependencies:
@@ -775,4 +798,4 @@ entries:
     urls:
     - https://github.com/instill-ai/helm-charts/releases/download/vdp-0.1.5-alpha/vdp-0.1.5-alpha.tgz
     version: 0.1.5-alpha
-generated: "2023-06-30T10:21:54.053889223Z"
+generated: "2023-06-30T10:38:57.969758534Z"
