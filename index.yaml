@@ -3,6 +3,61 @@ entries:
   base:
   - apiVersion: v2
     appVersion: 0.1.0-alpha
+    created: "2023-07-09T10:54:22.812211684Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: https://charts.bitnami.com/bitnami
+      version: 8.8.1
+    - condition: elasticsearch.enabled
+      name: elasticsearch
+      repository: https://helm.elastic.co
+      version: 7.17.3
+    - name: influxdb2
+      repository: https://helm.influxdata.com
+      version: 2.1.1
+    - name: jaeger
+      repository: https://jaegertracing.github.io/helm-charts
+      tags:
+      - observability
+      version: 0.71.2
+    - name: opentelemetry-collector
+      repository: https://open-telemetry.github.io/opentelemetry-helm-charts
+      tags:
+      - observability
+      version: 0.59.1
+    - name: prometheus
+      repository: https://prometheus-community.github.io/helm-charts
+      tags:
+      - prometheusStack
+      version: 22.6.2
+    - name: grafana
+      repository: https://grafana.github.io/helm-charts
+      tags:
+      - prometheusStack
+      version: 6.56.6
+    description: The Helm chart of Instill Base
+    digest: 554114bd070f8e64ff771ae98bcdf92029bb81b6fff694752106bca678bd8316
+    home: https://www.instill.tech
+    icon: https://storage.googleapis.com/public-europe-west2-c-artifacts/imgs/helm-base-logo.png
+    keywords:
+    - unstructured data
+    - pipeline
+    - ETL/ELT
+    - AI
+    - Data
+    maintainers:
+    - name: Instill AI LTD
+      url: https://github.com/instill-ai
+    name: base
+    sources:
+    - https://github.com/instill-ai/base
+    type: application
+    urls:
+    - https://github.com/instill-ai/helm-charts/releases/download/base-0.1.1-alpha/base-0.1.1-alpha.tgz
+    version: 0.1.1-alpha
+  - apiVersion: v2
+    appVersion: 0.1.0-alpha
     created: "2023-06-19T00:23:21.221615463Z"
     dependencies:
     - condition: etcd.enabled
@@ -954,4 +1009,4 @@ entries:
     urls:
     - https://github.com/instill-ai/helm-charts/releases/download/vdp-0.1.5-alpha/vdp-0.1.5-alpha.tgz
     version: 0.1.5-alpha
-generated: "2023-07-07T19:00:51.789829254Z"
+generated: "2023-07-09T10:54:22.812304685Z"
