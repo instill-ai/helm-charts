@@ -2,6 +2,61 @@ apiVersion: v1
 entries:
   base:
   - apiVersion: v2
+    appVersion: 0.4.0-alpha
+    created: "2023-09-30T21:59:56.706752959Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: https://charts.bitnami.com/bitnami
+      version: 8.8.1
+    - condition: elasticsearch.enabled
+      name: elasticsearch
+      repository: https://helm.elastic.co
+      version: 7.17.3
+    - name: influxdb2
+      repository: https://helm.influxdata.com
+      version: 2.1.1
+    - name: jaeger
+      repository: https://jaegertracing.github.io/helm-charts
+      tags:
+      - observability
+      version: 0.71.2
+    - name: opentelemetry-collector
+      repository: https://open-telemetry.github.io/opentelemetry-helm-charts
+      tags:
+      - observability
+      version: 0.59.1
+    - name: prometheus
+      repository: https://prometheus-community.github.io/helm-charts
+      tags:
+      - prometheusStack
+      version: 22.6.2
+    - name: grafana
+      repository: https://grafana.github.io/helm-charts
+      tags:
+      - prometheusStack
+      version: 6.56.6
+    description: The Helm chart of Instill Base
+    digest: 5cee8b359fbf318657cac3fbf57899247f937f6a496e61ff122d45753119591a
+    home: https://www.instill.tech
+    icon: https://storage.googleapis.com/public-europe-west2-c-artifacts/imgs/helm-base-logo.png
+    keywords:
+    - unstructured data
+    - pipeline
+    - ETL/ELT
+    - AI
+    - Data
+    maintainers:
+    - name: Instill AI LTD
+      url: https://github.com/instill-ai
+    name: base
+    sources:
+    - https://github.com/instill-ai/base
+    type: application
+    urls:
+    - https://github.com/instill-ai/helm-charts/releases/download/base-0.1.5-alpha/base-0.1.5-alpha.tgz
+    version: 0.1.5-alpha
+  - apiVersion: v2
     appVersion: 0.3.0-alpha
     created: "2023-09-13T13:11:29.560444062Z"
     dependencies:
@@ -453,4 +508,4 @@ entries:
     urls:
     - https://github.com/instill-ai/helm-charts/releases/download/vdp-0.1.10-alpha/vdp-0.1.10-alpha.tgz
     version: 0.1.10-alpha
-generated: "2023-09-13T13:37:13.691406811Z"
+generated: "2023-09-30T21:59:56.706825568Z"
