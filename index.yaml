@@ -278,6 +278,29 @@ entries:
     version: 0.1.1-alpha
   model:
   - apiVersion: v2
+    appVersion: 0.2.1-alpha
+    created: "2023-09-30T22:13:17.524905315Z"
+    description: The Helm chart of Instill Model
+    digest: d908a718af0021ae5dc4622a8bcf6fd2506d9b701c813bed4ec41d3c519f6c87
+    home: https://www.instill.tech
+    icon: https://storage.googleapis.com/public-europe-west2-c-artifacts/imgs/helm-model-logo.png
+    keywords:
+    - unstructured data
+    - pipeline
+    - ETL/ELT
+    - AI
+    - Data
+    maintainers:
+    - name: Instill AI LTD
+      url: https://github.com/instill-ai
+    name: model
+    sources:
+    - https://github.com/instill-ai/model
+    type: application
+    urls:
+    - https://github.com/instill-ai/helm-charts/releases/download/model-0.1.6-alpha/model-0.1.6-alpha.tgz
+    version: 0.1.6-alpha
+  - apiVersion: v2
     appVersion: 0.2.0-alpha
     created: "2023-09-13T13:21:56.297208384Z"
     description: The Helm chart of Instill Model
@@ -508,4 +531,4 @@ entries:
     urls:
     - https://github.com/instill-ai/helm-charts/releases/download/vdp-0.1.10-alpha/vdp-0.1.10-alpha.tgz
     version: 0.1.10-alpha
-generated: "2023-09-30T21:59:56.706825568Z"
+generated: "2023-09-30T22:13:17.525111526Z"
