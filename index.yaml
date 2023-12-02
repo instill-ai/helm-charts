@@ -746,6 +746,33 @@ entries:
     - https://github.com/instill-ai/helm-charts/releases/download/model-0.1.10-alpha/model-0.1.10-alpha.tgz
     version: 0.1.10-alpha
   - apiVersion: v2
+    appVersion: 0.5.0-alpha
+    created: "2023-12-02T03:37:29.440610352Z"
+    dependencies:
+    - name: kuberay-operator
+      repository: https://ray-project.github.io/kuberay-helm/
+      version: 1.0.0
+    description: The Helm chart of Instill Model
+    digest: 4ea04e40b207d87d82c33951a46db24e0de745b9604c6da1b7477be43121ca15
+    home: https://www.instill.tech
+    icon: https://storage.googleapis.com/public-europe-west2-c-artifacts/imgs/helm-model-logo.png
+    keywords:
+    - unstructured data
+    - pipeline
+    - ETL/ELT
+    - AI
+    - Data
+    maintainers:
+    - name: Instill AI LTD
+      url: https://github.com/instill-ai
+    name: model
+    sources:
+    - https://github.com/instill-ai/model
+    type: application
+    urls:
+    - https://github.com/instill-ai/helm-charts/releases/download/model-0.1.10-alpha/model-0.1.10-alpha.tgz
+    version: 0.1.10-alpha
+  - apiVersion: v2
     appVersion: 0.4.0-alpha
     created: "2023-11-11T08:23:05.890948333Z"
     description: The Helm chart of Instill Model
@@ -793,32 +820,9 @@ entries:
     version: 0.1.9-alpha
   - apiVersion: v2
     appVersion: 0.3.0-alpha
-    created: "2023-10-27T14:08:09.734280322Z"
+    created: "2023-10-27T21:12:51.003316883Z"
     description: The Helm chart of Instill Model
-    digest: 31b57d54de9904cb29f4b1e698742c31cef2719cd94f48bc7a72a5f5d1b0e52b
-    home: https://www.instill.tech
-    icon: https://storage.googleapis.com/public-europe-west2-c-artifacts/imgs/helm-model-logo.png
-    keywords:
-    - unstructured data
-    - pipeline
-    - ETL/ELT
-    - AI
-    - Data
-    maintainers:
-    - name: Instill AI LTD
-      url: https://github.com/instill-ai
-    name: model
-    sources:
-    - https://github.com/instill-ai/model
-    type: application
-    urls:
-    - https://github.com/instill-ai/helm-charts/releases/download/model-0.1.8-alpha/model-0.1.8-alpha.tgz
-    version: 0.1.8-alpha
-  - apiVersion: v2
-    appVersion: 0.3.0-alpha
-    created: "2023-10-27T20:56:50.018453759Z"
-    description: The Helm chart of Instill Model
-    digest: e35fd9b3bfe9188a01b30d2184f22379eadeed7ebe90338e7e81ca439a33fb22
+    digest: 2cb777c9763a164aea1a0a0a13e0343e677164731603c05f0cea60aed0279783
     home: https://www.instill.tech
     icon: https://storage.googleapis.com/public-europe-west2-c-artifacts/imgs/helm-model-logo.png
     keywords:
@@ -862,9 +866,32 @@ entries:
     version: 0.1.8-alpha
   - apiVersion: v2
     appVersion: 0.3.0-alpha
-    created: "2023-10-27T21:12:51.003316883Z"
+    created: "2023-10-27T20:56:50.018453759Z"
     description: The Helm chart of Instill Model
-    digest: 2cb777c9763a164aea1a0a0a13e0343e677164731603c05f0cea60aed0279783
+    digest: e35fd9b3bfe9188a01b30d2184f22379eadeed7ebe90338e7e81ca439a33fb22
+    home: https://www.instill.tech
+    icon: https://storage.googleapis.com/public-europe-west2-c-artifacts/imgs/helm-model-logo.png
+    keywords:
+    - unstructured data
+    - pipeline
+    - ETL/ELT
+    - AI
+    - Data
+    maintainers:
+    - name: Instill AI LTD
+      url: https://github.com/instill-ai
+    name: model
+    sources:
+    - https://github.com/instill-ai/model
+    type: application
+    urls:
+    - https://github.com/instill-ai/helm-charts/releases/download/model-0.1.8-alpha/model-0.1.8-alpha.tgz
+    version: 0.1.8-alpha
+  - apiVersion: v2
+    appVersion: 0.3.0-alpha
+    created: "2023-10-27T14:08:09.734280322Z"
+    description: The Helm chart of Instill Model
+    digest: 31b57d54de9904cb29f4b1e698742c31cef2719cd94f48bc7a72a5f5d1b0e52b
     home: https://www.instill.tech
     icon: https://storage.googleapis.com/public-europe-west2-c-artifacts/imgs/helm-model-logo.png
     keywords:
@@ -1367,4 +1394,4 @@ entries:
     urls:
     - https://github.com/instill-ai/helm-charts/releases/download/vdp-0.1.10-alpha/vdp-0.1.10-alpha.tgz
     version: 0.1.10-alpha
-generated: "2023-11-29T02:03:52.157306233Z"
+generated: "2023-12-02T03:37:29.44077443Z"
