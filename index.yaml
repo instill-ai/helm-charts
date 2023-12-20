@@ -443,6 +443,61 @@ entries:
     - https://github.com/instill-ai/helm-charts/releases/download/core-0.1.11-alpha/core-0.1.11-alpha.tgz
     version: 0.1.11-alpha
   - apiVersion: v2
+    appVersion: 0.8.1-beta
+    created: "2023-12-20T06:32:12.360493174Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: https://charts.bitnami.com/bitnami
+      version: 8.8.1
+    - condition: elasticsearch.enabled
+      name: elasticsearch
+      repository: https://helm.elastic.co
+      version: 7.17.3
+    - name: influxdb2
+      repository: https://helm.influxdata.com
+      version: 2.1.1
+    - name: jaeger
+      repository: https://jaegertracing.github.io/helm-charts
+      tags:
+      - observability
+      version: 0.71.2
+    - name: opentelemetry-collector
+      repository: https://open-telemetry.github.io/opentelemetry-helm-charts
+      tags:
+      - observability
+      version: 0.59.1
+    - name: prometheus
+      repository: https://prometheus-community.github.io/helm-charts
+      tags:
+      - prometheusStack
+      version: 22.6.2
+    - name: grafana
+      repository: https://grafana.github.io/helm-charts
+      tags:
+      - prometheusStack
+      version: 6.56.6
+    description: The Helm chart of Instill Core
+    digest: b353ff6c764ef0be082046e12c9078c04e2575114ede24cb6fdf4c089c8c29a7
+    home: https://www.instill.tech
+    icon: https://storage.googleapis.com/public-europe-west2-c-artifacts/imgs/helm-core-logo.png
+    keywords:
+    - unstructured data
+    - pipeline
+    - ETL/ELT
+    - AI
+    - Data
+    maintainers:
+    - name: Instill AI LTD
+      url: https://github.com/instill-ai
+    name: core
+    sources:
+    - https://github.com/instill-ai/core
+    type: application
+    urls:
+    - https://github.com/instill-ai/helm-charts/releases/download/core-0.1.11-alpha/core-0.1.11-alpha.tgz
+    version: 0.1.11-alpha
+  - apiVersion: v2
     appVersion: 0.8.0-beta
     created: "2023-12-15T17:52:41.776970086Z"
     dependencies:
@@ -554,7 +609,7 @@ entries:
     version: 0.1.10-alpha
   - apiVersion: v2
     appVersion: 0.7.0-alpha
-    created: "2023-11-29T02:03:52.157135686Z"
+    created: "2023-12-12T09:56:34.332646946Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -588,7 +643,7 @@ entries:
       - prometheusStack
       version: 6.56.6
     description: The Helm chart of Instill Core
-    digest: ae2e5a6d9c545409aaed779efc4352c1e1c9d2a8df980de27879761343b2f9c3
+    digest: 9481a07a43c6492490b7a78488a44dd09f4dc554865482d8eefda87f31705d59
     home: https://www.instill.tech
     icon: https://storage.googleapis.com/public-europe-west2-c-artifacts/imgs/helm-core-logo.png
     keywords:
@@ -664,7 +719,7 @@ entries:
     version: 0.1.9-alpha
   - apiVersion: v2
     appVersion: 0.7.0-alpha
-    created: "2023-12-12T09:56:34.332646946Z"
+    created: "2023-11-29T02:03:52.157135686Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -698,7 +753,7 @@ entries:
       - prometheusStack
       version: 6.56.6
     description: The Helm chart of Instill Core
-    digest: 9481a07a43c6492490b7a78488a44dd09f4dc554865482d8eefda87f31705d59
+    digest: ae2e5a6d9c545409aaed779efc4352c1e1c9d2a8df980de27879761343b2f9c3
     home: https://www.instill.tech
     icon: https://storage.googleapis.com/public-europe-west2-c-artifacts/imgs/helm-core-logo.png
     keywords:
@@ -1797,4 +1852,4 @@ entries:
     urls:
     - https://github.com/instill-ai/helm-charts/releases/download/vdp-0.1.10-alpha/vdp-0.1.10-alpha.tgz
     version: 0.1.10-alpha
-generated: "2023-12-20T05:12:30.503918414Z"
+generated: "2023-12-20T06:32:12.360664584Z"
