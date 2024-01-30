@@ -334,6 +334,61 @@ entries:
   core:
   - apiVersion: v2
     appVersion: 0.11.0-beta
+    created: "2024-01-30T16:58:20.289719373Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: https://charts.bitnami.com/bitnami
+      version: 8.8.1
+    - condition: elasticsearch.enabled
+      name: elasticsearch
+      repository: https://helm.elastic.co
+      version: 7.17.3
+    - name: influxdb2
+      repository: https://helm.influxdata.com
+      version: 2.1.1
+    - name: jaeger
+      repository: https://jaegertracing.github.io/helm-charts
+      tags:
+      - observability
+      version: 0.71.2
+    - name: opentelemetry-collector
+      repository: https://open-telemetry.github.io/opentelemetry-helm-charts
+      tags:
+      - observability
+      version: 0.59.1
+    - name: kube-prometheus-stack
+      repository: https://prometheus-community.github.io/helm-charts
+      tags:
+      - prometheusStack
+      version: 48.2.1
+    - name: grafana
+      repository: https://grafana.github.io/helm-charts
+      tags:
+      - prometheusStack
+      version: 7.0.19
+    description: The Helm chart of Instill Core
+    digest: 9f30c41af7893f005c5d42b4d5f915cdc46b4d4c94be161af51557c8f79c0402
+    home: https://www.instill.tech
+    icon: https://storage.googleapis.com/public-europe-west2-c-artifacts/imgs/helm-core-logo.png
+    keywords:
+    - unstructured data
+    - pipeline
+    - ETL/ELT
+    - AI
+    - Data
+    maintainers:
+    - name: Instill AI LTD
+      url: https://github.com/instill-ai
+    name: core
+    sources:
+    - https://github.com/instill-ai/core
+    type: application
+    urls:
+    - https://github.com/instill-ai/helm-charts/releases/download/core-0.1.15-beta/core-0.1.15-beta.tgz
+    version: 0.1.15-beta
+  - apiVersion: v2
+    appVersion: 0.11.0-beta
     created: "2024-01-30T16:32:58.253067202Z"
     dependencies:
     - condition: etcd.enabled
@@ -499,7 +554,7 @@ entries:
     version: 0.1.13-beta
   - apiVersion: v2
     appVersion: 0.8.2-beta
-    created: "2023-12-29T12:51:27.24787851Z"
+    created: "2023-12-29T00:40:27.479829459Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -533,62 +588,7 @@ entries:
       - prometheusStack
       version: 7.0.19
     description: The Helm chart of Instill Core
-    digest: 4e3a26bf4dec833a6ff304070cbd243969141bf9e6e8cf2e4b1db806b75ef24d
-    home: https://www.instill.tech
-    icon: https://storage.googleapis.com/public-europe-west2-c-artifacts/imgs/helm-core-logo.png
-    keywords:
-    - unstructured data
-    - pipeline
-    - ETL/ELT
-    - AI
-    - Data
-    maintainers:
-    - name: Instill AI LTD
-      url: https://github.com/instill-ai
-    name: core
-    sources:
-    - https://github.com/instill-ai/core
-    type: application
-    urls:
-    - https://github.com/instill-ai/helm-charts/releases/download/core-0.1.12-alpha/core-0.1.12-alpha.tgz
-    version: 0.1.12-alpha
-  - apiVersion: v2
-    appVersion: 0.8.2-beta
-    created: "2023-12-28T23:12:53.35465154Z"
-    dependencies:
-    - condition: etcd.enabled
-      name: etcd
-      repository: https://charts.bitnami.com/bitnami
-      version: 8.8.1
-    - condition: elasticsearch.enabled
-      name: elasticsearch
-      repository: https://helm.elastic.co
-      version: 7.17.3
-    - name: influxdb2
-      repository: https://helm.influxdata.com
-      version: 2.1.1
-    - name: jaeger
-      repository: https://jaegertracing.github.io/helm-charts
-      tags:
-      - observability
-      version: 0.71.2
-    - name: opentelemetry-collector
-      repository: https://open-telemetry.github.io/opentelemetry-helm-charts
-      tags:
-      - observability
-      version: 0.59.1
-    - name: kube-prometheus-stack
-      repository: https://prometheus-community.github.io/helm-charts
-      tags:
-      - prometheusStack
-      version: 48.2.1
-    - name: grafana
-      repository: https://grafana.github.io/helm-charts
-      tags:
-      - prometheusStack
-      version: 7.0.19
-    description: The Helm chart of Instill Core
-    digest: 380a098f7014cdeb49edd092f093fd152e3aa4d7e54161bf856ed1caed8b2915
+    digest: 8ad50b72e6d0c24e59ab16d245020bbc6ebac20c62a6e135c2d0a07b799a0395
     home: https://www.instill.tech
     icon: https://storage.googleapis.com/public-europe-west2-c-artifacts/imgs/helm-core-logo.png
     keywords:
@@ -664,7 +664,7 @@ entries:
     version: 0.1.12-alpha
   - apiVersion: v2
     appVersion: 0.8.2-beta
-    created: "2023-12-29T00:40:27.479829459Z"
+    created: "2023-12-28T23:12:53.35465154Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -698,7 +698,7 @@ entries:
       - prometheusStack
       version: 7.0.19
     description: The Helm chart of Instill Core
-    digest: 8ad50b72e6d0c24e59ab16d245020bbc6ebac20c62a6e135c2d0a07b799a0395
+    digest: 380a098f7014cdeb49edd092f093fd152e3aa4d7e54161bf856ed1caed8b2915
     home: https://www.instill.tech
     icon: https://storage.googleapis.com/public-europe-west2-c-artifacts/imgs/helm-core-logo.png
     keywords:
@@ -754,6 +754,61 @@ entries:
       version: 7.0.19
     description: The Helm chart of Instill Core
     digest: cf78f877973f94da052d7ff112eb7a3dc4bc59a15d2cb036d8b754b8b3f11562
+    home: https://www.instill.tech
+    icon: https://storage.googleapis.com/public-europe-west2-c-artifacts/imgs/helm-core-logo.png
+    keywords:
+    - unstructured data
+    - pipeline
+    - ETL/ELT
+    - AI
+    - Data
+    maintainers:
+    - name: Instill AI LTD
+      url: https://github.com/instill-ai
+    name: core
+    sources:
+    - https://github.com/instill-ai/core
+    type: application
+    urls:
+    - https://github.com/instill-ai/helm-charts/releases/download/core-0.1.12-alpha/core-0.1.12-alpha.tgz
+    version: 0.1.12-alpha
+  - apiVersion: v2
+    appVersion: 0.8.2-beta
+    created: "2023-12-29T12:51:27.24787851Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: https://charts.bitnami.com/bitnami
+      version: 8.8.1
+    - condition: elasticsearch.enabled
+      name: elasticsearch
+      repository: https://helm.elastic.co
+      version: 7.17.3
+    - name: influxdb2
+      repository: https://helm.influxdata.com
+      version: 2.1.1
+    - name: jaeger
+      repository: https://jaegertracing.github.io/helm-charts
+      tags:
+      - observability
+      version: 0.71.2
+    - name: opentelemetry-collector
+      repository: https://open-telemetry.github.io/opentelemetry-helm-charts
+      tags:
+      - observability
+      version: 0.59.1
+    - name: kube-prometheus-stack
+      repository: https://prometheus-community.github.io/helm-charts
+      tags:
+      - prometheusStack
+      version: 48.2.1
+    - name: grafana
+      repository: https://grafana.github.io/helm-charts
+      tags:
+      - prometheusStack
+      version: 7.0.19
+    description: The Helm chart of Instill Core
+    digest: 4e3a26bf4dec833a6ff304070cbd243969141bf9e6e8cf2e4b1db806b75ef24d
     home: https://www.instill.tech
     icon: https://storage.googleapis.com/public-europe-west2-c-artifacts/imgs/helm-core-logo.png
     keywords:
@@ -2597,4 +2652,4 @@ entries:
     urls:
     - https://github.com/instill-ai/helm-charts/releases/download/vdp-0.1.10-alpha/vdp-0.1.10-alpha.tgz
     version: 0.1.10-alpha
-generated: "2024-01-30T16:51:25.145671972Z"
+generated: "2024-01-30T16:58:20.290122323Z"
