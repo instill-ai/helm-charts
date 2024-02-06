@@ -2170,6 +2170,29 @@ entries:
     version: 0.1.1-alpha
   vdp:
   - apiVersion: v2
+    appVersion: 0.22.1-beta
+    created: "2024-02-06T01:41:05.065550533Z"
+    description: The Helm chart of Instill VDP
+    digest: ee8b85a50737530d50fc2f12f2db7bdca63d898e5c51d1cbcb6f10abaa973a0b
+    home: https://www.instill.tech
+    icon: https://storage.googleapis.com/public-europe-west2-c-artifacts/imgs/helm-vdp-logo.png
+    keywords:
+    - unstructured data
+    - pipeline
+    - ETL/ELT
+    - AI
+    - Data
+    maintainers:
+    - name: Instill AI LTD
+      url: https://github.com/instill-ai
+    name: vdp
+    sources:
+    - https://github.com/instill-ai/vdp
+    type: application
+    urls:
+    - https://github.com/instill-ai/helm-charts/releases/download/vdp-0.1.24-beta/vdp-0.1.24-beta.tgz
+    version: 0.1.24-beta
+  - apiVersion: v2
     appVersion: 0.22.0-beta
     created: "2024-01-30T16:51:25.145298833Z"
     description: The Helm chart of Instill VDP
@@ -2355,9 +2378,9 @@ entries:
     version: 0.1.18-alpha
   - apiVersion: v2
     appVersion: 0.17.1-alpha
-    created: "2023-11-11T08:24:22.161916454Z"
+    created: "2023-11-13T03:33:11.369658419Z"
     description: The Helm chart of Instill VDP
-    digest: 2d207b6571ec5d5da3d288321b8ab95eaec0fe523f5638d6b6a78a182e0cd361
+    digest: bbd98294a4ca4918b8fa356bd126f6f14e5d9b41a77aed4b1fadb76e9531782f
     home: https://www.instill.tech
     icon: https://storage.googleapis.com/public-europe-west2-c-artifacts/imgs/helm-vdp-logo.png
     keywords:
@@ -2401,9 +2424,9 @@ entries:
     version: 0.1.17-alpha
   - apiVersion: v2
     appVersion: 0.17.1-alpha
-    created: "2023-11-13T03:33:11.369658419Z"
+    created: "2023-11-11T08:24:22.161916454Z"
     description: The Helm chart of Instill VDP
-    digest: bbd98294a4ca4918b8fa356bd126f6f14e5d9b41a77aed4b1fadb76e9531782f
+    digest: 2d207b6571ec5d5da3d288321b8ab95eaec0fe523f5638d6b6a78a182e0cd361
     home: https://www.instill.tech
     icon: https://storage.googleapis.com/public-europe-west2-c-artifacts/imgs/helm-vdp-logo.png
     keywords:
@@ -2652,4 +2675,4 @@ entries:
     urls:
     - https://github.com/instill-ai/helm-charts/releases/download/vdp-0.1.10-alpha/vdp-0.1.10-alpha.tgz
     version: 0.1.10-alpha
-generated: "2024-01-30T16:58:20.290122323Z"
+generated: "2024-02-06T01:41:05.065831879Z"
