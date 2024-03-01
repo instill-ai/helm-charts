@@ -1983,6 +1983,33 @@ entries:
     - https://github.com/instill-ai/helm-charts/releases/download/model-0.1.16-alpha/model-0.1.16-alpha.tgz
     version: 0.1.16-alpha
   - apiVersion: v2
+    appVersion: 0.10.0-alpha
+    created: "2024-03-01T11:17:12.881444126Z"
+    dependencies:
+    - name: kuberay-operator
+      repository: https://ray-project.github.io/kuberay-helm/
+      version: 1.0.0
+    description: The Helm chart of Instill Model
+    digest: d6912caad9a20d202e6367d53cf1a7cfd868f3e4ecde2e332a67e898a253926e
+    home: https://www.instill.tech
+    icon: https://storage.googleapis.com/public-europe-west2-c-artifacts/imgs/helm-model-logo.png
+    keywords:
+    - unstructured data
+    - pipeline
+    - ETL/ELT
+    - AI
+    - Data
+    maintainers:
+    - name: Instill AI LTD
+      url: https://github.com/instill-ai
+    name: model
+    sources:
+    - https://github.com/instill-ai/model
+    type: application
+    urls:
+    - https://github.com/instill-ai/helm-charts/releases/download/model-0.1.16-alpha/model-0.1.16-alpha.tgz
+    version: 0.1.16-alpha
+  - apiVersion: v2
     appVersion: 0.9.0-alpha
     created: "2024-02-16T06:34:50.170775974Z"
     dependencies:
@@ -2227,9 +2254,9 @@ entries:
     version: 0.1.10-alpha
   - apiVersion: v2
     appVersion: 0.4.0-alpha
-    created: "2023-11-13T03:45:40.081398547Z"
+    created: "2023-11-11T08:23:05.890948333Z"
     description: The Helm chart of Instill Model
-    digest: b200a57e222c07da5a916a17273e08278980444d172c19c69bec95800d269fe1
+    digest: afcc88e32b1785629ef70344a0b01158c1fa168e29e3035268ca37aab62cc434
     home: https://www.instill.tech
     icon: https://storage.googleapis.com/public-europe-west2-c-artifacts/imgs/helm-model-logo.png
     keywords:
@@ -2250,9 +2277,9 @@ entries:
     version: 0.1.9-alpha
   - apiVersion: v2
     appVersion: 0.4.0-alpha
-    created: "2023-11-11T08:23:05.890948333Z"
+    created: "2023-11-13T03:45:40.081398547Z"
     description: The Helm chart of Instill Model
-    digest: afcc88e32b1785629ef70344a0b01158c1fa168e29e3035268ca37aab62cc434
+    digest: b200a57e222c07da5a916a17273e08278980444d172c19c69bec95800d269fe1
     home: https://www.instill.tech
     icon: https://storage.googleapis.com/public-europe-west2-c-artifacts/imgs/helm-model-logo.png
     keywords:
@@ -3077,4 +3104,4 @@ entries:
     urls:
     - https://github.com/instill-ai/helm-charts/releases/download/vdp-0.1.10-alpha/vdp-0.1.10-alpha.tgz
     version: 0.1.10-alpha
-generated: "2024-02-29T14:57:56.860639134Z"
+generated: "2024-03-01T11:17:12.881819043Z"
