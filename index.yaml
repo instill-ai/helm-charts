@@ -60,6 +60,68 @@ entries:
     - https://github.com/instill-ai/helm-charts/releases/download/core-0.1.29-beta/core-0.1.29-beta.tgz
     version: 0.1.29-beta
   - apiVersion: v2
+    appVersion: 0.26.1-beta
+    created: "2024-03-22T08:32:28.029609946Z"
+    dependencies:
+    - name: kuberay-operator
+      repository: https://ray-project.github.io/kuberay-helm/
+      tags:
+      - model
+      version: 1.0.0
+    - condition: etcd.enabled
+      name: etcd
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - model
+      version: 8.8.1
+    - condition: elasticsearch.enabled
+      name: elasticsearch
+      repository: https://helm.elastic.co
+      version: 7.17.3
+    - name: influxdb2
+      repository: https://helm.influxdata.com
+      version: 2.1.1
+    - name: jaeger
+      repository: https://jaegertracing.github.io/helm-charts
+      tags:
+      - observability
+      version: 0.71.2
+    - name: opentelemetry-collector
+      repository: https://open-telemetry.github.io/opentelemetry-helm-charts
+      tags:
+      - observability
+      version: 0.59.1
+    - name: kube-prometheus-stack
+      repository: https://prometheus-community.github.io/helm-charts
+      tags:
+      - prometheusStack
+      version: 48.2.1
+    - name: grafana
+      repository: https://grafana.github.io/helm-charts
+      tags:
+      - prometheusStack
+      version: 7.0.19
+    description: The Helm chart of Instill Core
+    digest: 5fd02fdd66de7773d1776fb9899f14ff2be34d0b961f1f1f6f1d54a9620e4f49
+    home: https://www.instill.tech
+    icon: https://storage.googleapis.com/public-europe-west2-c-artifacts/imgs/helm-core-logo.png
+    keywords:
+    - unstructured data
+    - pipeline
+    - ETL/ELT
+    - AI
+    - Data
+    maintainers:
+    - name: Instill AI LTD
+      url: https://github.com/instill-ai
+    name: core
+    sources:
+    - https://github.com/instill-ai/instill-core
+    type: application
+    urls:
+    - https://github.com/instill-ai/helm-charts/releases/download/core-0.1.29-beta/core-0.1.29-beta.tgz
+    version: 0.1.29-beta
+  - apiVersion: v2
     appVersion: 0.26.0-beta
     created: "2024-03-13T07:06:58.006739722Z"
     dependencies:
@@ -349,4 +411,4 @@ entries:
     urls:
     - https://github.com/instill-ai/helm-charts/releases/download/core-0.1.26-beta/core-0.1.26-beta.tgz
     version: 0.1.26-beta
-generated: "2024-03-20T07:53:57.215297345Z"
+generated: "2024-03-22T08:32:28.02965481Z"
