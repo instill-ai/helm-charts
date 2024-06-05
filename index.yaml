@@ -179,6 +179,67 @@ entries:
     - https://github.com/instill-ai/helm-charts/releases/download/core-0.1.35-beta/core-0.1.35-beta.tgz
     version: 0.1.35-beta
   - apiVersion: v2
+    appVersion: 0.32.0-beta
+    created: "2024-06-05T20:14:44.580643397Z"
+    dependencies:
+    - name: milvus
+      repository: https://zilliztech.github.io/milvus-helm/
+      tags:
+      - milvus
+      version: 4.1.30
+    - name: kuberay-operator
+      repository: https://ray-project.github.io/kuberay-helm/
+      tags:
+      - model
+      version: 1.1.1
+    - condition: elasticsearch.enabled
+      name: elasticsearch
+      repository: https://helm.elastic.co
+      version: 7.17.3
+    - name: influxdb2
+      repository: https://helm.influxdata.com
+      version: 2.1.1
+    - name: jaeger
+      repository: https://jaegertracing.github.io/helm-charts
+      tags:
+      - observability
+      version: 0.71.2
+    - name: opentelemetry-collector
+      repository: https://open-telemetry.github.io/opentelemetry-helm-charts
+      tags:
+      - observability
+      version: 0.59.1
+    - name: kube-prometheus-stack
+      repository: https://prometheus-community.github.io/helm-charts
+      tags:
+      - prometheusStack
+      version: 48.2.1
+    - name: grafana
+      repository: https://grafana.github.io/helm-charts
+      tags:
+      - prometheusStack
+      version: 7.0.19
+    description: The Helm chart of Instill Core
+    digest: 417141174efd2e83ced28970e70711a9b9925f1067b26121b24f28942ccd6705
+    home: https://www.instill.tech
+    icon: https://storage.googleapis.com/public-europe-west2-c-artifacts/imgs/helm-core-logo.png
+    keywords:
+    - unstructured data
+    - pipeline
+    - ETL/ELT
+    - AI
+    - Data
+    maintainers:
+    - name: Instill AI LTD
+      url: https://github.com/instill-ai
+    name: core
+    sources:
+    - https://github.com/instill-ai/instill-core
+    type: application
+    urls:
+    - https://github.com/instill-ai/helm-charts/releases/download/core-0.1.35-beta/core-0.1.35-beta.tgz
+    version: 0.1.35-beta
+  - apiVersion: v2
     appVersion: 0.31.0-beta
     created: "2024-05-07T09:59:50.625018811Z"
     dependencies:
@@ -490,13 +551,19 @@ entries:
     version: 0.1.32-beta
   - apiVersion: v2
     appVersion: 0.28.0-beta
-    created: "2024-04-10T07:18:40.85031525Z"
+    created: "2024-04-12T09:32:21.29948583Z"
     dependencies:
     - name: kuberay-operator
       repository: https://ray-project.github.io/kuberay-helm/
       tags:
       - model
       version: 1.0.0
+    - condition: etcd.enabled
+      name: etcd
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - model
+      version: 8.8.1
     - condition: elasticsearch.enabled
       name: elasticsearch
       repository: https://helm.elastic.co
@@ -525,7 +592,7 @@ entries:
       - prometheusStack
       version: 7.0.19
     description: The Helm chart of Instill Core
-    digest: 044dddb02af544444fad5e3ea3523b1538623fcb708d0049ad5136cf01a005b5
+    digest: 6e40709f8b7e06b630e1c87bcd107a5044e334393be645a51444a0dd627bd0cd
     home: https://www.instill.tech
     icon: https://storage.googleapis.com/public-europe-west2-c-artifacts/imgs/helm-core-logo.png
     keywords:
@@ -608,19 +675,13 @@ entries:
     version: 0.1.31-beta
   - apiVersion: v2
     appVersion: 0.28.0-beta
-    created: "2024-04-12T09:32:21.29948583Z"
+    created: "2024-04-10T07:18:40.85031525Z"
     dependencies:
     - name: kuberay-operator
       repository: https://ray-project.github.io/kuberay-helm/
       tags:
       - model
       version: 1.0.0
-    - condition: etcd.enabled
-      name: etcd
-      repository: https://charts.bitnami.com/bitnami
-      tags:
-      - model
-      version: 8.8.1
     - condition: elasticsearch.enabled
       name: elasticsearch
       repository: https://helm.elastic.co
@@ -649,7 +710,7 @@ entries:
       - prometheusStack
       version: 7.0.19
     description: The Helm chart of Instill Core
-    digest: 6e40709f8b7e06b630e1c87bcd107a5044e334393be645a51444a0dd627bd0cd
+    digest: 044dddb02af544444fad5e3ea3523b1538623fcb708d0049ad5136cf01a005b5
     home: https://www.instill.tech
     icon: https://storage.googleapis.com/public-europe-west2-c-artifacts/imgs/helm-core-logo.png
     keywords:
@@ -1140,4 +1201,4 @@ entries:
     urls:
     - https://github.com/instill-ai/helm-charts/releases/download/core-0.1.26-beta/core-0.1.26-beta.tgz
     version: 0.1.26-beta
-generated: "2024-05-21T09:01:34.759524614Z"
+generated: "2024-06-05T20:14:44.580885307Z"
