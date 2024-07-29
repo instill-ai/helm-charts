@@ -9,4 +9,4 @@ $ helm repo update
 
 Documentation on each individual chart can be found for
 
-- [Instill Core Helm Chart](https://github.com/instill-ai/core/blob/main/charts/core/README.md)
+- [Instill Core Helm Chart](https://github.com/instill-ai/instill-core/blob/main/charts/core/README.md)
