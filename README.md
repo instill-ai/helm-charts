@@ -3,7 +3,7 @@
 Add the Instill AI Helm repository using:
 
 ```bash
-$ helm repo add instill-ai https://helm.instill.tech
+$ helm repo add instill-ai https://helm.instill-ai.dev
 $ helm repo update
 ```
 
