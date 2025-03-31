@@ -2,6 +2,62 @@ apiVersion: v1
 entries:
   core:
   - apiVersion: v2
+    appVersion: 0.50.1-beta
+    created: "2025-03-31T06:27:27.698700795Z"
+    dependencies:
+    - name: milvus
+      repository: https://zilliztech.github.io/milvus-helm/
+      tags:
+      - milvus
+      version: 4.1.30
+    - name: kuberay-operator
+      repository: https://ray-project.github.io/kuberay-helm/
+      tags:
+      - ray
+      version: 1.1.1
+    - condition: elasticsearch.enabled
+      name: elasticsearch
+      repository: https://helm.elastic.co
+      version: 7.17.3
+    - name: influxdb2
+      repository: https://helm.influxdata.com
+      version: 2.1.1
+    - name: jaeger
+      repository: https://jaegertracing.github.io/helm-charts
+      tags:
+      - observability
+      version: 3.4.1
+    - name: opentelemetry-collector
+      repository: https://open-telemetry.github.io/opentelemetry-helm-charts
+      tags:
+      - observability
+      version: 0.119.0
+    - name: kube-prometheus-stack
+      repository: https://prometheus-community.github.io/helm-charts
+      tags:
+      - prometheusStack
+      version: 70.3.0
+    description: The Helm chart of Instill Core
+    digest: 8c277cacde7cf62087a1929955630251619cdc43cd8a3035493ae1b50f2f9852
+    home: https://www.instill-ai.dev
+    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    keywords:
+    - unstructured data
+    - pipeline
+    - ETL/ELT
+    - AI
+    - Data
+    maintainers:
+    - name: Instill AI LTD
+      url: https://github.com/instill-ai
+    name: core
+    sources:
+    - https://github.com/instill-ai/instill-core
+    type: application
+    urls:
+    - https://github.com/instill-ai/helm-charts/releases/download/core-0.1.57-beta/core-0.1.57-beta.tgz
+    version: 0.1.57-beta
+  - apiVersion: v2
     appVersion: 0.50.0-beta
     created: "2025-03-28T16:53:45.813956734Z"
     dependencies:
@@ -3143,4 +3199,4 @@ entries:
     urls:
     - https://github.com/instill-ai/helm-charts/releases/download/core-0.1.26-beta/core-0.1.26-beta.tgz
     version: 0.1.26-beta
-generated: "2025-03-28T16:53:45.81414792Z"
+generated: "2025-03-31T06:27:27.699012648Z"
