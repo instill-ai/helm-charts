@@ -208,7 +208,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: c094b49a4f4a1b62680dbcb9d8a4e9ca2836721a86fc35e1b1f2c46f6483ddff
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -316,7 +316,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: e41c9080462b58afb7b3e27bd3f1b4dbf5c2e28fb3b3b21ab0e65323a228fba7
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -372,7 +372,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: 8e30e837af2a93f378ab219f305e0a198f6b8679b69e70fc95d05c1fbcffddf3
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -428,7 +428,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: 87b77d05dc82ee6d7656908adfa165eb1cf75c66a6ff019d33da9c3ff50f55a1
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -484,7 +484,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: 811ab6b9d45d973c69876344948f0f95555b4ff7f805ab82caea89dc7860958a
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -536,7 +536,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: cfc84fe5a3d4b8181b925b2d7b3a1f50a4be6f2eb709ad25979e512a3eb40385
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -592,7 +592,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: 8ce3a1c36762da02778f77389aacb24e0c79ca7a30670a4cc826c5aa799f1275
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -648,7 +648,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: ec2cd63f467d2cfe2b53c7fe6ed1344c7a2e4df7236c974360cb4c4017ab4633
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -704,7 +704,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: 8c277cacde7cf62087a1929955630251619cdc43cd8a3035493ae1b50f2f9852
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -760,7 +760,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: b76b2c68904da18b23529afad1fb5b0246030254dcb5d2bfd4b0246bc9feffe9
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -821,7 +821,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: fe24ee52fdac37ddeca6fbf60152d0b946a46dd571ac2eeb1f5f79e50a42064c
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -882,7 +882,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: f3385f55345aea69be70183b1f88ecf992d7a7c5d6f8d58206f99505e2e66a95
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -938,7 +938,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: b5232009c75e7ff405eae3e7aa1942e5f351e0c5584bee6de9a4d1a2adb26e85
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -999,7 +999,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: 54c59615e862c082e7656c9bb099978a2f77498695abc672b4f63a33099ac911
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -1060,7 +1060,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: f708172624859d372038c9ade1aa3e16580fc1f459e23e1febe7d9675c382cfb
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -1121,7 +1121,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: 1af39bc456a002832647bee2d5948a85bcdf01a3de33d947088e34203e234376
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -1182,7 +1182,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: a0142211416e64fc7725c0e6601d22101cf572b3be11f41521a140b01b93bcb6
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -1243,7 +1243,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: cc1a2d0d0429f86821fc712bad86ecf8c9a4a270f827e9ea79050ca5af75d196
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -1304,7 +1304,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: 4899d69c83d7e434e05a917409c8ad9f980eaa981bd010db2e9fa2088fd7766d
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -1365,7 +1365,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: bcd01bd7a96cc9b08d669d01b32750425e44d474afb0dcf09410fb1df814fffb
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -1426,7 +1426,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: d7c772b4e73f54fd3ca4cdd202162859d7a83750630b4c44010422319f824f5a
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -1487,7 +1487,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: 552224132a067e29cda698f63508e152634618c6e5ca2d435ea3c41eb9ab17b6
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -1548,7 +1548,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: 6627ca1c6fa0a8533aa51dd31bdb262ca28fc4dca5282b708eec169f443bf27f
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -1609,7 +1609,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: 2d3df40df3da8b81104f4b83f8629323c1632282e6cdb53a08398bd0e420059a
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -1670,7 +1670,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: 762de32e8e4e461fccb70d213162584449b243a9b8cd2892df8aa487fa98a135
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -1731,7 +1731,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: 3661c91d9c74898d8f74c1214021c66d87298f4f96e7388ed557b7b4f0f14ff0
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -1792,7 +1792,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: d1993fe061292680e9f5df6c5264b67ea68b9906643a725122e34e31e710847b
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -1853,7 +1853,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: 81b7d2bfe78ec9d0a66e34b6902ad40220cfa7d7d35d2cf8924615d6ee204e9a
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -1914,7 +1914,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: a5159a5923a31d59e7d612185080aa7aa639dc4111aa8839354ccb9937be9382
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -1975,7 +1975,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: 93bd847614f211b8a9544c3de6c70063882bf2a7238bd4453ac0922801b9d368
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -2036,7 +2036,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: ae894b6a71f2500fc19fa13b2c5ac57d7026b39e338d74c7b00c0ccaadf05de6
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -2097,7 +2097,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: 1ff71079dedbe77cba19aef8972c08f0b99dc5157ce5f1c09ee8743f806defa4
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -2158,7 +2158,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: 21a9cd48a8ab8655b19407555742720507fb99332422c531eca869e4cf6b94bb
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -2219,7 +2219,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: a98cdb782835717e8405e4f4e9b3b7c98015793bbdad019f83964dc3c8eee357
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -2280,7 +2280,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: f5a22fb89cdd0ddd29ff81a10c2d1d4f6fc8291e3dcc69207db4ff5ce804d437
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -2341,7 +2341,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: 56c3e18b00eb68a576557d4cded1d47c9b402b0cf47e72c0f2e1819444f82ff6
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -2402,7 +2402,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: 50a0c303a1420a7b42e5f461018b66521df82387df0bbf80ab6b4a8ec5c7434a
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -2463,7 +2463,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: 0d1529b626369e23ae58b2af354fe21e4d98a390551055cb5346ed15f148603b
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -2524,7 +2524,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: db7ceb1459a3588d309cfac35870e97c146f4281153955b1f91fe42692e1bfe7
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -2585,7 +2585,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: a89f39711436074c4d7e238166bda1efbafec6ace1614c1f4667bc3c67daac9f
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -2646,7 +2646,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: 1895583f12e7894720886adffd919f7fa1e3388aee4acf8a269b93838e97d3b1
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -2705,7 +2705,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: a31b71a7e14baf6f6032d0d4d297a4d5f265b101528720e381b16eb4b98302ab
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -2761,7 +2761,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: a058c812f7c19788fbd7b900163e33034d81eb3f8b6807053b909bc76052c6d2
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -2822,7 +2822,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: 417141174efd2e83ced28970e70711a9b9925f1067b26121b24f28942ccd6705
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -2884,7 +2884,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: 90ffa356c349e04d0af41cdb533597c161aa45bb0a5a1934b570051929e4c231
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -2946,7 +2946,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: 0626eb5ac2395799af41078c55f28f0c97f6f297fe253f40abf079e2ae647bfe
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -3008,7 +3008,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: 6e381ba9ed8b17253de0ea21ae7a9df5df44bcef36afd15d9bda89b3a46bdc1d
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -3070,7 +3070,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: 6ed307e84eeb5a9153bb03046c2581ff4fc55aedd2497e16b9b8f3ed044175e8
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -3132,7 +3132,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: 201ff9a652de3702e88c067e6e254d6fc3f3086800b429a7603b274c521cc4a5
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -3194,7 +3194,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: 0beccc61ddfc1a13b791bc455ec580718c3f18182abb8fe848fd4e2b020d2fad
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -3256,7 +3256,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: 4a9d7d5c55d96c19b067169ab75a05d091bc68dd49e99c4d2f211b82664bd824
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -3312,7 +3312,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: 044dddb02af544444fad5e3ea3523b1538623fcb708d0049ad5136cf01a005b5
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -3374,7 +3374,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: 6e40709f8b7e06b630e1c87bcd107a5044e334393be645a51444a0dd627bd0cd
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -3436,7 +3436,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: 53a5252207b7f690f24c7a0718183f29df4f816e85ce27acd6988087512766d5
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -3498,7 +3498,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: 5fd02fdd66de7773d1776fb9899f14ff2be34d0b961f1f1f6f1d54a9620e4f49
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -3556,7 +3556,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: a9fbd6e4330373bb61e3111cc1f566d82ace14132eb1fed5ca4f6fffc7b5f517
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -3614,7 +3614,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: 91658805065384b8e082c27cd6047f45b188603a8c3403e300bc1c1496785cc9
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -3672,7 +3672,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: 3b0970a08fb780b6420adb76b4f1b7155ba3ad821c527eef55c6679ccf01a2d9
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -3730,7 +3730,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: 99bae955a0398b9e1b1f483d54ae3c6642183e8af6aa42f2720ce458a9b59014
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -3788,7 +3788,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: 615baae96bf134c0a907f39bd6e9a5dcd670a21e4f85f0facf1a1d2507bef19c
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
@@ -3846,7 +3846,7 @@ entries:
     description: The Helm chart of Instill Core
     digest: 08b71e3a067dca01504206ff8c7db2aafd96a31067e87d3d14e2fbd21869ec21
     home: https://www.instill-ai.com
-    icon: https://artifacts.instill.tech/imgs/helm-core-logo.png
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
     keywords:
     - unstructured data
     - pipeline
