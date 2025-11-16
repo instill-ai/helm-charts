@@ -3,6 +3,42 @@ entries:
   core:
   - apiVersion: v2
     appVersion: 0.58.1
+    created: "2025-11-16T16:27:09.301635959Z"
+    dependencies:
+    - condition: openfga.enabled
+      name: openfga
+      repository: https://openfga.github.io/helm-charts
+      version: 0.2.39
+    - condition: influxdb2.enabled
+      name: influxdb2
+      repository: https://helm.influxdata.com
+      version: 2.1.1
+    - condition: opentelemetry-collector.enabled
+      name: opentelemetry-collector
+      repository: https://open-telemetry.github.io/opentelemetry-helm-charts
+      version: 0.129.0
+    description: The Helm chart of Instill Core
+    digest: 7be2e861401dca35e66b03831e623ee0f088e3a8dc03f9e90453864bd1e5a53f
+    home: https://www.instill-ai.com
+    icon: https://artifacts.instill-ai.com/imgs/helm-core-logo.png
+    keywords:
+    - unstructured data
+    - pipeline
+    - ETL/ELT
+    - AI
+    - Data
+    maintainers:
+    - name: Instill AI LTD
+      url: https://github.com/instill-ai
+    name: core
+    sources:
+    - https://github.com/instill-ai/instill-core
+    type: application
+    urls:
+    - https://github.com/instill-ai/helm-charts/releases/download/core-0.1.72/core-0.1.72.tgz
+    version: 0.1.72
+  - apiVersion: v2
+    appVersion: 0.58.1
     created: "2025-10-14T00:06:33.655684861Z"
     dependencies:
     - condition: openfga.enabled
@@ -4907,4 +4943,4 @@ entries:
     urls:
     - https://github.com/instill-ai/helm-charts/releases/download/core-0.1.26-beta/core-0.1.26-beta.tgz
     version: 0.1.26-beta
-generated: "2025-10-14T00:06:33.656067472Z"
+generated: "2025-11-16T16:27:09.301900394Z"
